@@ -10,8 +10,12 @@
 
 
     <color name="red_app">#FF4A4A</color>
+    <color name="pink_app">#FFE5E5</color>
     <color name="black_app">#2E3851</color>
-    <color name="green_app">#2E3851</color>
+    <color name="green_app">#27AE60</color>
+    <color name="yellow_app">#F2C94C</color>
+    <color name="transparent_app">#0000ffff</color>
     <color name="background_frag">#F5F6F8</color>
+
 
 </resources>

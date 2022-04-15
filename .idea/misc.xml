@@ -4,23 +4,41 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/KurbankuApp/app/src/main/res/drawable/edt_border.xml" value="0.2115" />
+        <entry key="..\:/KurbankuApp/app/src/main/res/drawable/ic_arrow_left.xml" value="0.1825" />
+        <entry key="..\:/KurbankuApp/app/src/main/res/drawable/ic_award.xml" value="0.199" />
         <entry key="..\:/KurbankuApp/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.195" />
         <entry key="..\:/KurbankuApp/app/src/main/res/drawable/ic_baseline_notifications_24.xml" value="0.195" />
         <entry key="..\:/KurbankuApp/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.195" />
         <entry key="..\:/KurbankuApp/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.195" />
+        <entry key="..\:/KurbankuApp/app/src/main/res/drawable/ic_bell.xml" value="0.1935" />
         <entry key="..\:/KurbankuApp/app/src/main/res/drawable/ic_btn_background.xml" value="0.2115" />
+        <entry key="..\:/KurbankuApp/app/src/main/res/drawable/ic_calendar.xml" value="0.199" />
+        <entry key="..\:/KurbankuApp/app/src/main/res/drawable/ic_credit_card.xml" value="0.2115" />
+        <entry key="..\:/KurbankuApp/app/src/main/res/drawable/ic_help_circle.xml" value="0.2115" />
         <entry key="..\:/KurbankuApp/app/src/main/res/drawable/ic_home.xml" value="0.195" />
         <entry key="..\:/KurbankuApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.195" />
+        <entry key="..\:/KurbankuApp/app/src/main/res/drawable/ic_mail.xml" value="0.2115" />
+        <entry key="..\:/KurbankuApp/app/src/main/res/drawable/ic_map_pin.xml" value="0.2115" />
         <entry key="..\:/KurbankuApp/app/src/main/res/drawable/ic_message_circle.xml" value="0.195" />
+        <entry key="..\:/KurbankuApp/app/src/main/res/drawable/ic_phone.xml" value="0.2115" />
         <entry key="..\:/KurbankuApp/app/src/main/res/drawable/ic_search.xml" value="0.1" />
         <entry key="..\:/KurbankuApp/app/src/main/res/drawable/ic_transaction.xml" value="0.195" />
+        <entry key="..\:/KurbankuApp/app/src/main/res/drawable/ic_user.xml" value="0.2115" />
+        <entry key="..\:/KurbankuApp/app/src/main/res/drawable/ic_users.xml" value="0.2115" />
         <entry key="..\:/KurbankuApp/app/src/main/res/drawable/nav_item_color_state.xml" value="0.2115" />
+        <entry key="..\:/KurbankuApp/app/src/main/res/font/roboto_medium.xml" value="0.234375" />
+        <entry key="..\:/KurbankuApp/app/src/main/res/layout/activity_detail_item.xml" value="0.33" />
+        <entry key="..\:/KurbankuApp/app/src/main/res/layout/activity_list_detail.xml" value="0.25" />
         <entry key="..\:/KurbankuApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/KurbankuApp/app/src/main/res/layout/fragment_account.xml" value="0.25" />
-        <entry key="..\:/KurbankuApp/app/src/main/res/layout/fragment_home.xml" value="0.1" />
-        <entry key="..\:/KurbankuApp/app/src/main/res/layout/fragment_message.xml" value="0.17074275362318841" />
+        <entry key="..\:/KurbankuApp/app/src/main/res/layout/fragment_account.xml" value="0.33" />
+        <entry key="..\:/KurbankuApp/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/KurbankuApp/app/src/main/res/layout/fragment_message.xml" value="0.22" />
         <entry key="..\:/KurbankuApp/app/src/main/res/layout/fragment_transaction.xml" value="0.16" />
+        <entry key="..\:/KurbankuApp/app/src/main/res/layout/item_home_kurban.xml" value="0.33" />
+        <entry key="..\:/KurbankuApp/app/src/main/res/layout/item_kurban.xml" value="0.33" />
+        <entry key="..\:/KurbankuApp/app/src/main/res/layout/item_pakan.xml" value="0.22" />
         <entry key="..\:/KurbankuApp/app/src/main/res/layout/toolbar_main.xml" value="0.33" />
+        <entry key="..\:/KurbankuApp/app/src/main/res/layout/view_empt.xml" value="0.18342391304347827" />
         <entry key="..\:/KurbankuApp/app/src/main/res/menu/bottom_nav_bar.xml" value="0.20416666666666666" />
         <entry key="..\:/KurbankuApp/app/src/main/res/menu/menu.xml" value="0.20416666666666666" />
       </map>

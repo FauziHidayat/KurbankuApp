@@ -6,4 +6,11 @@
     <string name="transaction">Transaksi</string>
     <string name="message">Pesan</string>
     <string name="account">Akun</string>
+    <string name="rekomendasi_kurban">Rekomendasi Kurban</string>
+    <string name="rekomendasi_pakan">Rekomendasi Pakan</string>
+
+    <string name="dummy_detail_kurban">Sapi limousin merupakan tipe sapi potong dengan perototan yang lebih baik dari sapi simmental. Sapi limousin memiliki bulu berwarna coklat tua kecuali di sekitar ambing berwarna putih serta lutut kebawah dan sekitar mata berwarna lebih muda.</string>
+    <string name="no_data">Tidak ada data disini</string>
+    <string name="kategori">Kategori</string>
+    <string name="search">Search</string>
 </resources>

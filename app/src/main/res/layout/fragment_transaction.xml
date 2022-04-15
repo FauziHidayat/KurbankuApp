@@ -3,11 +3,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background_frag"
     tools:context=".fragment.TransactionFragment">
 
 
+    <include
+        android:id="@+id/myToolbarLayanan"
+        layout="@layout/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
+    <include
+        layout="@layout/view_empt"/>
 
 
 </LinearLayout>

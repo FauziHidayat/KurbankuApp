@@ -2,14 +2,17 @@ package com.projectku.kurbankuapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.widget.Toolbar
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.google.android.material.textview.MaterialTextView
 import com.projectku.kurbankuapp.fragment.AccountFragment
 import com.projectku.kurbankuapp.fragment.HomeFragment
 import com.projectku.kurbankuapp.fragment.MessageFragment
 import com.projectku.kurbankuapp.fragment.TransactionFragment
 
 class MainActivity : AppCompatActivity() {
+
 
     private val fragmentHome: Fragment = HomeFragment()
     private val fragmentMessage: Fragment = MessageFragment()
@@ -20,7 +23,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         replaceFragment(fragmentHome)
-
 
         val bottomNavigationView: BottomNavigationView = findViewById(R.id.nav_view)
 
@@ -33,9 +35,8 @@ class MainActivity : AppCompatActivity() {
             }
             true
         }
-
-
     }
+
 
     private fun replaceFragment(fragment: Fragment){
         if(fragment != null){

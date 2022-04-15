@@ -4,14 +4,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/background_frag"
     tools:context=".fragment.MessageFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <include
+        android:id="@+id/myToolbarLayanan"
+        layout="@layout/toolbar_main"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:textSize="25sp"
-        android:text="Message" />
+        android:layout_height="wrap_content" />
+
+    <include
+        layout="@layout/view_empt"/>
 
 </LinearLayout>

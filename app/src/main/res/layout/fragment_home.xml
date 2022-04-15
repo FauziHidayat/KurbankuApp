@@ -7,6 +7,12 @@
     android:orientation="vertical"
     tools:context=".fragment.HomeFragment">
 
+    <include
+        android:id="@+id/myToolbarLayanan"
+        layout="@layout/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
     <com.google.android.material.textfield.TextInputLayout
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
@@ -26,17 +32,34 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Search"/>
+            android:hint="@string/search"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
-  <TextView
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:text="Kategori"
-      android:textSize="18sp"
-      android:layout_marginLeft="15dp"
-      android:layout_marginBottom="12dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/kategori"
+            android:textColor="@color/black_app"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="12dp"
+            android:src="@drawable/ic_more_menu" />
+
+    </RelativeLayout>
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -48,10 +71,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:strokeWidth="0.5dp"
-            android:layout_marginRight="7dp"
+            android:layout_marginEnd="7dp"
             app:cardCornerRadius="10dp"
             app:strokeColor="#DEDEDE"
-            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
             android:layout_weight="1">
 
             <LinearLayout
@@ -70,7 +93,9 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="18sp"
+                    android:textSize="16sp"
+                    android:textColor="@color/black_app"
+                    android:fontFamily="@font/roboto_medium"
                     android:layout_marginLeft="12dp"
                     android:layout_gravity="center_vertical"
                     android:text="Ternak"/>
@@ -104,8 +129,10 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:layout_marginLeft="12dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/black_app"
+                    android:fontFamily="@font/roboto_medium"
+                    android:layout_marginStart="12dp"
                     android:layout_gravity="center_vertical"
                     android:text="Alat-alat"/>
 
@@ -125,10 +152,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:strokeWidth="0.5dp"
-            android:layout_marginRight="7dp"
+            android:layout_marginEnd="7dp"
             app:strokeColor="#DEDEDE"
             app:cardCornerRadius="10dp"
-            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
             android:layout_weight="1">
 
             <LinearLayout
@@ -146,8 +173,10 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:layout_marginLeft="12dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/black_app"
+                    android:fontFamily="@font/roboto_medium"
+                    android:layout_marginStart="12dp"
                     android:layout_gravity="center_vertical"
                     android:text="Pakan"/>
 
@@ -180,8 +209,10 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:layout_marginLeft="12dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/black_app"
+                    android:fontFamily="@font/roboto_medium"
+                    android:layout_marginStart="12dp"
                     android:layout_gravity="center_vertical"
                     android:text="Obat"/>
 
@@ -192,33 +223,67 @@
 
     </LinearLayout>
 
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Rekomendasi Ternak"
-        android:textSize="18sp"
-        android:layout_marginBottom="13dp"
-        android:layout_marginLeft="15dp"/>
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="13dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/rekomendasi_kurban"
+            android:textColor="@color/black_app"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/img_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="12dp"
+            android:src="@drawable/ic_more_menu" />
+
+    </RelativeLayout>
+
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_home_kurban"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="120dp"
+        android:layout_marginStart="15dp"
         android:layout_marginBottom="24dp"
-        tools:itemCount="4"/>
+        android:orientation="horizontal"
+        tools:itemCount="4"
+        tools:listitem="@layout/item_home_kurban" />
 
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="15dp"
-        android:layout_marginBottom="13dp"
-        android:textSize="18sp"
-        android:text="Rekomendasi Pakan"/>
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
-        tools:itemCount="4"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="13dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/rekomendasi_pakan"
+            android:textColor="@color/black_app"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="12dp"
+            android:src="@drawable/ic_more_menu" />
+
+    </RelativeLayout>
+
+
 
 
 </LinearLayout>
